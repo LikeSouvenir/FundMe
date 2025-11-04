@@ -9,15 +9,14 @@ contract FundMe {
     using GetterUSDTPrice for uint256; 
 
     address immutable owner;
-    uint immutable MINIMUM_AMOUNT_SUPPORT;
+    uint constant MINIMUM_AMOUNT_SUPPORT = 50 * 1e6;
     mapping (address => uint256) public usersAmountFunded;
 
-    constructor(uint minAmountUSD) {
+    constructor() {
         owner = msg.sender;
-        MINIMUM_AMOUNT_SUPPORT = minAmountUSD * 1e18;
     }
     // 0,040_000_000_000_000_000
-    // 0,040_000_000_000
+    // 0,040000000000
 
     function fund() public payable {
         require(msg.value.getConversionPrice() >= MINIMUM_AMOUNT_SUPPORT, "send more ETH");
@@ -26,6 +25,9 @@ contract FundMe {
 
     function getCurrecntPrice(uint weiAmount) external view returns(uint) {
         return weiAmount.getConversionPrice();
+    }
+    function getPrice() external view returns(uint) {
+        return GetterUSDTPrice.getPrice();
     }
 
     function withdraw() external payable {

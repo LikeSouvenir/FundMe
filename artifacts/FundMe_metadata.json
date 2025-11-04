@@ -6,13 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "minAmountUSD",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -36,6 +30,19 @@
 					}
 				],
 				"name": "getCurrecntPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -464,19 +471,19 @@
 			]
 		},
 		"GetterUSDT.sol": {
-			"keccak256": "0x71717904e75f51ced711409f3019d704273150bbeed458b83d3025c4a0bb1b95",
+			"keccak256": "0x3e365ab6fae3e2e314a17392ce1c031f863a64a8d3411b28cda9443415f54f58",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cef93b5b12ae76b7c895b5f005540024453556fc49eed99c0cda5fc1b97d58d5",
-				"dweb:/ipfs/QmfHY19vT5LKb2k2BkvcZTZvjhgVLB9sXYszM2XnTxSjEu"
+				"bzz-raw://2049247d40448d0e9c983c77320380991da91539064593ca12990ac6ae059500",
+				"dweb:/ipfs/QmRNTshuDikcHr9PipcygzMV85Sqmzwq4AfZ2YQPaAMZP3"
 			]
 		},
 		"foundMe.sol": {
-			"keccak256": "0x231ca3addf1599c2da2cabb3882f87d02252d8a12fbec0a6b87a8bc8c1a7d2b7",
+			"keccak256": "0x49a2f621557e4de154f56cc79d0dbd21ef8fc0d12d0166a1ea9b52bca5bcef34",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c5261757521a78bb1cab058283be60eb0b7d0e95015126698c2addc1d0f5680e",
-				"dweb:/ipfs/Qmd8uZQCV5DbanmhNrxcghVbJfueFQ1gxkjw7GxQz8PUAj"
+				"bzz-raw://16baf46032ff19a54dec837b470147e1c100b7f34c8dca93c8f769aa966e442a",
+				"dweb:/ipfs/Qmc8LgcuJcJmChpak6Bm3WYiuELjrrZK7QFc9ycWxvKD3J"
 			]
 		}
 	},

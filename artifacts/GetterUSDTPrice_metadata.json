@@ -41,11 +41,11 @@
 			]
 		},
 		"GetterUSDT.sol": {
-			"keccak256": "0x71717904e75f51ced711409f3019d704273150bbeed458b83d3025c4a0bb1b95",
+			"keccak256": "0xd962678338c813a485eca8231c96a2063851396f3a90fec930601c3007852d8f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cef93b5b12ae76b7c895b5f005540024453556fc49eed99c0cda5fc1b97d58d5",
-				"dweb:/ipfs/QmfHY19vT5LKb2k2BkvcZTZvjhgVLB9sXYszM2XnTxSjEu"
+				"bzz-raw://fbcbfc53c51efd217874fb0c8c8f6b37aa9b42b70cc04bfa754559f4a0476b8c",
+				"dweb:/ipfs/QmVe916nbX6tJrxwnXhm4qmC4f7KdPzKvkoAVNeCtNZfy8"
 			]
 		}
 	},
